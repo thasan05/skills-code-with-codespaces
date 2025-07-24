@@ -8,5 +8,6 @@
       "extensions": []
     }
   },
-  "postCreateCommand": "echo Hello from postCreateCommand"
+  "postCreateCommand": "echo Hello again from postCreateCommand"
+
 }
