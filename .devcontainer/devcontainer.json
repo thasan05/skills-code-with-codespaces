@@ -1,0 +1,12 @@
+{
+  "name": "skills-code-with-codespaces",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  },
+  "postCreateCommand": "echo Hello from postCreateCommand"
+}
