@@ -1,6 +1,6 @@
 {
   "name": "skills-code-with-codespaces",
- "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "features": {},
   "customizations": {
     "vscode": {
@@ -9,5 +9,4 @@
     }
   },
   "postCreateCommand": "echo Hello again from postCreateCommand"
-
 }
