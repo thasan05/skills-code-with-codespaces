@@ -1,6 +1,6 @@
 {
   "name": "skills-code-with-codespaces",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+ "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {},
   "customizations": {
     "vscode": {
