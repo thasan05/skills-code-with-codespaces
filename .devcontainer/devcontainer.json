@@ -1,11 +1,17 @@
 {
   "name": "skills-code-with-codespaces",
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh"
   "customizations": {
     "vscode": {
       "settings": {},
-      "extensions": []
+      "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy"
+      ]
     }
   },
   "postCreateCommand": "echo Hello again from postCreateCommand"
